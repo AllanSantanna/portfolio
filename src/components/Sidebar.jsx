@@ -1,37 +1,37 @@
-import Avatar from '../img/allan.jpg';
-import '../styles/components/sidebar.sass';
-import SocialNetworks from './SocialNetworks';
-import InformationContainer from './InformationContainer';
+import Avatar from '../img/allan.jpg'
+import '../styles/components/sidebar.sass'
+import SocialNeteorks from './SocialNetworks'
+import InformationContainer from './InformationContainer'
+import Curriculum from '../assets/allancurriculo.pdf'
 
 const Sidebar = () => {
-  const cvUrl = `../assets/allancurriculo.pdf`;
-
-  const downloadCV = () => {
-    const link = document.createElement('a');
-    link.href = cvUrl;
-    link.setAttribute('download', 'allancurriculo.pdf');
-    document.body.appendChild(link);
-    link.click();
-  };
+  const handleDownloadCV = () => {
+    const link = document.createElement('a')
+    link.href = Curriculum
+    link.download = 'allancurriculo.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
 
   return (
     <aside id="sidebar">
       <img src={Avatar} alt="Allan Paulo" />
       <p className="title">Desenvolvedor</p>
-      <SocialNetworks />
+      <SocialNeteorks />
       <InformationContainer />
-      <button className="btn" onClick={downloadCV}>
+      <a href={Curriculum} download="allancurriculo.pdf" className="btn" onClick={handleDownloadCV}>
         Download currículo
-      </button>
+      </a>
       <style>
         {`
-          button:hover {
+          .btn:hover {
             cursor: pointer;
           }
         `}
       </style>
     </aside>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar
