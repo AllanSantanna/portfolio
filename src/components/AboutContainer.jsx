@@ -3,16 +3,7 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, dolores!
-        Repellendus eius consequuntur, voluptate deserunt perferendis mollitia
-        debitis est autem aperiam necessitatibus beatae assumenda illo rem
-        architecto quis dolor quae.
-      </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis
-        aperiam, odit nihil placeat, dolorum sequi reprehenderit fugiat,
-        distinctio provident impedit modi neque sapiente voluptate voluptates.
-        Maiores sint at dolores?
+        Allan é um iniciante na área de desenvolvimento de software, mas já demonstrou grande determinação em aprender e evoluir suas habilidades. Ele é curioso, proativo e tem uma boa capacidade de resolução de problemas. Com sua mentalidade de aprendizado contínuo e paixão pela tecnologia, Allan está determinado a se tornar um desenvolvedor de software de alto nível.
       </p>
     </section>
   );
