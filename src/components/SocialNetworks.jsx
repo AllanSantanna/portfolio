@@ -4,15 +4,15 @@ import "../styles/components/socialnetworks.sass";
 const socialNetworks = [
   {
     name: "linkedin", icon: <FaLinkedinIn />,
-    url: "https://www.linkedin.com/in/allanpsantanna/"
+    url: "https://www.linkedin.com/in/raissa-marques-921201177/"
   },
   {
     name: "github", icon: <FaGithub />,
-    url: "https://github.com/AllanSantanna"
+    url: "https://github.com/Raissatkm/"
   },
   {
     name: "instagram", icon: <FaInstagram />,
-    url: "https://www.instagram.com/allan.santanaa/"
+    url: "https://www.instagram.com/raissa_tkm/"
   },
 ];
 

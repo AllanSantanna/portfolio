@@ -3,7 +3,14 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p>
-        Allan é um iniciante na área de desenvolvimento de software, mas já demonstrou grande determinação em aprender e evoluir suas habilidades. Ele é curioso, proativo e tem uma boa capacidade de resolução de problemas. Com sua mentalidade de aprendizado contínuo e paixão pela tecnologia, Allan está determinado a se tornar um desenvolvedor de software de alto nível.
+      Olá, meu nome  Raissa Marques tenho de 23 anos e recentemente concluiu a faculdade em Pedagogia, porém,
+     Decidi dar uma guinada em minha carreira e migrar para a área de programação.
+    Com um olhar curioso para o mundo da tecnologia desde sempre, tenho interesse em aprender sobre programação.
+    Após algumas experiências em projetos pessoais, me apaixonei pela área e decidi investir nessa nova jornada profissional.
+    Apesar de ter sido formada em Pedagogia, estou determinada em me capacitar para me tornar uma profissional em programação.
+    Estou me dedicando intensamente para aprender tudo sobre a linguagem de programação e as melhores práticas em desenvolvimento de software.
+    Para alcançar o objetivo estou realizando cursos online, lendo livros, participando de comunidades e eventos de programação.
+
       </p>
     </section>
   );
